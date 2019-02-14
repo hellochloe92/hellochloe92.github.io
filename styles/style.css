@@ -1,6 +1,3 @@
-html{
-    background-color: #ffcac8;
-}
 
 p, li{
     font-size: 20px;
@@ -50,4 +47,45 @@ img {
 .fa-instagram{
     background: #125688;
     color: white;
+}
+
+ul li{
+    width: 600px;
+    margin: 1 auto;
+    background-color: #d5f4e6;
+    padding: 0 20px 20px 20px;
+    border: 5px solid gray;
+    text-align: left;
+    list-style-type: circle;
+
+}
+
+ol li{
+    width: 600px;
+    margin: 1 auto;
+    background-color: #fefbd8;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    text-align: left;
+    list-style-type: lower-alpha;
+
+}
+
+section{
+    padding: 25px;
+    margin: 25px;
+    border: 10px solid gray;
+    background-color: #9dead7;
+}
+
+section h1{
+    color: #117772;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+div{
+    overflow: hidden;
 }
